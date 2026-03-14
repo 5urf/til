@@ -19,7 +19,8 @@ for folder in folders:
     lines.append(f"## {folder_labels[folder]}\n\n")
     for file in files:
         name = file.replace(".md", "")
-        lines.append(f"- [{name}]({folder}/{file})\n")
+        encoded = file.replace(" ", "%20")  
+        lines.append(f"- [{name}]({folder}/{encoded})\n")
     lines.append("\n")
 
 with open("README.md", "w", encoding="utf-8") as f:
