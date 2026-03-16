@@ -11,6 +11,7 @@
 
 ## Next.js
 
+- [Server and Client Components](nextjs/Server%20and%20Client%20Components.md)
 - [Updating Data](nextjs/Updating%20Data.md)
 
 ## 📚 Books
