@@ -24,25 +24,32 @@ for folder in folders:
     lines.append("\n")
 
 lines.append("## 📚 Books\n\n")
-lines.append("### Clean Code\n\n")
+books_path = "books"
 
-clean_code_path = "books/clean-code"
+for book in sorted(os.listdir(books_path)):
+    book_path = os.path.join(books_path, book)
+    if not os.path.isdir(book_path):
+        continue
 
-chapters = sorted([f for f in os.listdir(clean_code_path) if f.endswith(".md")])
-for file in chapters:
-    name = file.replace(".md", "")
-    encoded = file.replace(" ", "%20")
-    lines.append(f"- [{name}](books/clean-code/{encoded})\n")
+    label = book.replace("-", " ").title()
+    lines.append(f"### {label}\n\n")
 
-lines.append("\n**Missions**\n\n")
-missions_path = os.path.join(clean_code_path, "missions")
-missions = sorted([f for f in os.listdir(missions_path) if f.endswith(".md")])
-for file in missions:
-    name = file.replace(".md", "")
-    encoded = file.replace(" ", "%20")
-    lines.append(f"- [{name}](books/clean-code/missions/{encoded})\n")
+    files = sorted([f for f in os.listdir(book_path) if f.endswith(".md")])
+    for file in files:
+        name = file.replace(".md", "")
+        encoded = file.replace(" ", "%20")
+        lines.append(f"- [{name}](books/{book}/{encoded})\n")
 
-lines.append("\n")
+    missions_path = os.path.join(book_path, "missions")
+    if os.path.exists(missions_path):
+        lines.append("\n**Missions**\n\n")
+        missions = sorted([f for f in os.listdir(missions_path) if f.endswith(".md")])
+        for file in missions:
+            name = file.replace(".md", "")
+            encoded = file.replace(" ", "%20")
+            lines.append(f"- [{name}](books/{book}/missions/{encoded})\n")
+
+    lines.append("\n")
 
 with open("README.md", "w", encoding="utf-8") as f:
     f.writelines(lines)
