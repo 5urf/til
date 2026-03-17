@@ -47,6 +47,7 @@
 
 ### Javascript Deep Dive
 
+- [09장 타입 변환과 단축 평가](books/javascript-deep-dive/09장%20타입%20변환과%20단축%20평가.md)
 - [7장 연산자](books/javascript-deep-dive/7장%20연산자.md)
 - [8장 제어문](books/javascript-deep-dive/8장%20제어문.md)
 
