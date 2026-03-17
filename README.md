@@ -11,6 +11,7 @@
 ## TypeScript
 
 - [More on Function](typeScript/More%20on%20Function.md)
+- [Narrowing](typeScript/Narrowing.md)
 - [Object Types](typeScript/Object%20Types.md)
 - [keyof, typeof, 인덱스 접근 타입](typeScript/keyof,%20typeof,%20인덱스%20접근%20타입.md)
 
