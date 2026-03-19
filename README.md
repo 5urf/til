@@ -3,6 +3,7 @@
 
 ## React
 
+- [State 로직을 Reducer로 작성하기](react/State%20로직을%20Reducer로%20작성하기.md)
 - [State를 보존하고 초기화하기](react/State를%20보존하고%20초기화하기.md)
 - [state 업데이트 큐](react/state%20업데이트%20큐.md)
 - [스냅샷으로서의 State](react/스냅샷으로서의%20State.md)
