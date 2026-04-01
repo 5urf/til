@@ -27,6 +27,7 @@
 - [Fetching Data](nextjs/Fetching%20Data.md)
 - [Layouts and Pages](nextjs/Layouts%20and%20Pages.md)
 - [Linking and Navigating](nextjs/Linking%20and%20Navigating.md)
+- [Route Handlers](nextjs/Route%20Handlers.md)
 - [Server and Client Components](nextjs/Server%20and%20Client%20Components.md)
 - [Updating Data](nextjs/Updating%20Data.md)
 
