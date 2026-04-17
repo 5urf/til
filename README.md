@@ -62,4 +62,5 @@
 - [11장 원시 값과 객체의 비교](books/javascript-deep-dive/11장%20원시%20값과%20객체의%20비교.md)
 - [12장 함수](books/javascript-deep-dive/12장%20함수.md)
 - [13장 스코프](books/javascript-deep-dive/13장%20스코프.md)
+- [14장 전역 변수의 문제점](books/javascript-deep-dive/14장%20전역%20변수의%20문제점.md)
 
