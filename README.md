@@ -26,6 +26,7 @@
 ## Next.js
 
 - [Caching](nextjs/Caching.md)
+- [Error Handling](nextjs/Error%20Handling.md)
 - [Fetching Data](nextjs/Fetching%20Data.md)
 - [Layouts and Pages](nextjs/Layouts%20and%20Pages.md)
 - [Linking and Navigating](nextjs/Linking%20and%20Navigating.md)
