@@ -16,6 +16,7 @@
 ## TypeScript
 
 - [Generics](typeScript/Generics.md)
+- [Mapped Types](typeScript/Mapped%20Types.md)
 - [Modules](typeScript/Modules.md)
 - [More on Function](typeScript/More%20on%20Function.md)
 - [Narrowing](typeScript/Narrowing.md)
