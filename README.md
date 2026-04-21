@@ -70,4 +70,5 @@
 - [13장 스코프](books/javascript-deep-dive/13장%20스코프.md)
 - [14장 전역 변수의 문제점](books/javascript-deep-dive/14장%20전역%20변수의%20문제점.md)
 - [15장 let, const 키워드와 블록 레벨 스코프](books/javascript-deep-dive/15장%20let,%20const%20키워드와%20블록%20레벨%20스코프.md)
+- [16장 프로퍼티 어트리뷰트](books/javascript-deep-dive/16장%20프로퍼티%20어트리뷰트.md)
 
