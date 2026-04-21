@@ -16,6 +16,7 @@
 
 ## TypeScript
 
+- [Conditional Types](typeScript/Conditional%20Types.md)
 - [Generics](typeScript/Generics.md)
 - [Mapped Types](typeScript/Mapped%20Types.md)
 - [Modules](typeScript/Modules.md)
