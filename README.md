@@ -29,6 +29,7 @@
 
 ## Next.js
 
+- [Caching and Revalidating (Previous Model)](nextjs/Caching%20and%20Revalidating%20(Previous%20Model).md)
 - [Caching](nextjs/Caching.md)
 - [Error Handling](nextjs/Error%20Handling.md)
 - [Fetching Data](nextjs/Fetching%20Data.md)
