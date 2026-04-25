@@ -17,6 +17,7 @@
 
 ## TypeScript
 
+- [Classes - 클래스 타입, 접근 제한자, implements](typeScript/Classes%20-%20클래스%20타입,%20접근%20제한자,%20implements.md)
 - [Conditional Types](typeScript/Conditional%20Types.md)
 - [Generics](typeScript/Generics.md)
 - [Mapped Types](typeScript/Mapped%20Types.md)
