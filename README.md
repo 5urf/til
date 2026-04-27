@@ -33,6 +33,7 @@
 
 - [Caching and Revalidating (Previous Model)](nextjs/Caching%20and%20Revalidating%20(Previous%20Model).md)
 - [Caching](nextjs/Caching.md)
+- [Environment Variables](nextjs/Environment%20Variables.md)
 - [Error Handling](nextjs/Error%20Handling.md)
 - [Fetching Data](nextjs/Fetching%20Data.md)
 - [Layouts and Pages](nextjs/Layouts%20and%20Pages.md)
