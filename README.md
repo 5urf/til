@@ -3,6 +3,7 @@
 
 ## React
 
+- [Context를 사용해 데이터를 깊게 전달하기](react/Context를%20사용해%20데이터를%20깊게%20전달하기.md)
 - [Effect가 필요하지 않은 경우](react/Effect가%20필요하지%20않은%20경우.md)
 - [Effect로 동기화하기](react/Effect로%20동기화하기.md)
 - [Effect에서 이벤트 분리하기](react/Effect에서%20이벤트%20분리하기.md)
