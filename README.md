@@ -37,6 +37,7 @@
 - [Environment Variables](nextjs/Environment%20Variables.md)
 - [Error Handling](nextjs/Error%20Handling.md)
 - [Fetching Data](nextjs/Fetching%20Data.md)
+- [Image Optimiztion](nextjs/Image%20Optimiztion.md)
 - [Layouts and Pages](nextjs/Layouts%20and%20Pages.md)
 - [Linking and Navigating](nextjs/Linking%20and%20Navigating.md)
 - [Metadata and OG Images](nextjs/Metadata%20and%20OG%20Images.md)
