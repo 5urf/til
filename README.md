@@ -9,6 +9,7 @@
 - [Effect에서 이벤트 분리하기](react/Effect에서%20이벤트%20분리하기.md)
 - [Effect의 의존성 제거하기](react/Effect의%20의존성%20제거하기.md)
 - [React Effect의 생명주기](react/React%20Effect의%20생명주기.md)
+- [Reducer와 Context로 앱 확장하기](react/Reducer와%20Context로%20앱%20확장하기.md)
 - [State 로직을 Reducer로 작성하기](react/State%20로직을%20Reducer로%20작성하기.md)
 - [State를 보존하고 초기화하기](react/State를%20보존하고%20초기화하기.md)
 - [state 업데이트 큐](react/state%20업데이트%20큐.md)
