@@ -80,4 +80,5 @@
 - [15장 let, const 키워드와 블록 레벨 스코프](books/javascript-deep-dive/15장%20let,%20const%20키워드와%20블록%20레벨%20스코프.md)
 - [16장 프로퍼티 어트리뷰트](books/javascript-deep-dive/16장%20프로퍼티%20어트리뷰트.md)
 - [17장 생성자 함수에 의한 객체 생성](books/javascript-deep-dive/17장%20생성자%20함수에%20의한%20객체%20생성.md)
+- [18장 함수와 일급 객체](books/javascript-deep-dive/18장%20함수와%20일급%20객체.md)
 
