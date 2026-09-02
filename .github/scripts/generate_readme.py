@@ -1,4 +1,5 @@
 import os
+from urllib.parse import quote
 
 folders = ["react", "typeScript", "nextjs", "nest"]
 folder_labels = {
@@ -20,7 +21,7 @@ for folder in folders:
     lines.append(f"## {folder_labels[folder]}\n\n")
     for file in files:
         name = file.replace(".md", "")
-        encoded = file.replace(" ", "%20")
+        encoded = quote(file)
         lines.append(f"- [{name}]({folder}/{encoded})\n")
     lines.append("\n")
 
@@ -38,7 +39,7 @@ for book in sorted(os.listdir(books_path)):
     files = sorted([f for f in os.listdir(book_path) if f.endswith(".md")])
     for file in files:
         name = file.replace(".md", "")
-        encoded = file.replace(" ", "%20")
+        encoded = quote(file)
         lines.append(f"- [{name}](books/{book}/{encoded})\n")
 
     missions_path = os.path.join(book_path, "missions")
@@ -47,7 +48,7 @@ for book in sorted(os.listdir(books_path)):
         missions = sorted([f for f in os.listdir(missions_path) if f.endswith(".md")])
         for file in missions:
             name = file.replace(".md", "")
-            encoded = file.replace(" ", "%20")
+            encoded = quote(file)
             lines.append(f"- [{name}](books/{book}/missions/{encoded})\n")
 
     lines.append("\n")
