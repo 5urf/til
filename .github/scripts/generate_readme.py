@@ -1,10 +1,11 @@
 import os
 
-folders = ["react", "typeScript", "nextjs"]
+folders = ["react", "typeScript", "nextjs", "nest"]
 folder_labels = {
     "react": "React",
     "typeScript": "TypeScript",
-    "nextjs": "Next.js"
+    "nextjs": "Next.js",
+    "nest": "Nest.js"
 }
 
 lines = ["# TIL\n", "> Today I Learned\n\n"]
