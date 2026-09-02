@@ -49,6 +49,7 @@
 ## Nest.js
 
 - [Nest JS 란?](nest/Nest%20JS%20%EB%9E%80%3F.md)
+- [Nest.js 모듈이란?](nest/Nest.js%20%EB%AA%A8%EB%93%88%EC%9D%B4%EB%9E%80%3F.md)
 
 ## 📚 Books
 
