@@ -54,6 +54,7 @@
 - [Nest.js 모듈이란?](nest/Nest.js%20%EB%AA%A8%EB%93%88%EC%9D%B4%EB%9E%80%3F.md)
 - [Pipes 란?](nest/Pipes%20%EB%9E%80%3F.md)
 - [Providers, Service 란?](nest/Providers%2C%20Service%20%EB%9E%80%3F.md)
+- [커스텀 파이프](nest/%EC%BB%A4%EC%8A%A4%ED%85%80%20%ED%8C%8C%EC%9D%B4%ED%94%84.md)
 
 ## 📚 Books
 
